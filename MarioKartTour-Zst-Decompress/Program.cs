@@ -10,7 +10,7 @@ namespace MarioKartTour_Zst_Decompress
         {
             Console.WriteLine("Zst File decompressor for Mario Kart Tour - IcyPhoenix | Special thanks to tryso, kuronosuFear");
 
-            var dict = File.ReadAllBytes("1.0.1.zdict");
+            var dict = File.ReadAllBytes("1.0.2.zdict");
 
             Directory.CreateDirectory(@".\zst\");
             Directory.CreateDirectory(@".\dzst\");
